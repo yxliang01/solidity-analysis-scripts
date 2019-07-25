@@ -1,7 +1,8 @@
-#!node
+#!/usr/bin/env node
 
 /**
-  @Author: Xiao Liang <https://github.com/yxliang01>
+  @author Xiao Liang <https://github.com/yxliang01>
+  @version v0.1.1
   
   Print all the functions defined in targeted contractName as a JSON array
   

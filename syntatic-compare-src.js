@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 /**
- * @author Xiao Liang <https://github.com/yxliang01
- * @version v0.1.0
+ * @author Xiao Liang <https://github.com/yxliang01>
+ * @version v0.1.1
  * 
  * Check two source code file, whether they are equal in parsed syntax tree, excluding comments and spacings.
  * Output a boolean string value(`true`/`false`) to identical whether two source code files are same in syntax tree level
@@ -13,7 +13,7 @@
  * when specified TargetContractName, only the contract matching the name will be considered for comparison.
  * 
  * Note: before use, install package `solidity-parser-antlr` and `lodash` via npm
- * Note: only test on node v10
+ * Note: only tested on node v10
  */
 
 const parser = require('solidity-parser-antlr');

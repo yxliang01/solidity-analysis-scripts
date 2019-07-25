@@ -2,7 +2,7 @@
 
 /**
  * @author Xiao Liang <https://github.com/yxliang01>
- * @version v0.1.1
+ * @version v0.2.0
  * 
  * Check two source code file, whether they are equal in parsed syntax tree, excluding comments and spacings.
  * Output a boolean string value(`true`/`false`) to identical whether two source code files are same in syntax tree level
@@ -79,7 +79,10 @@ function extractRelevantAST(ast, targetContractName = undefined) {
             }
         })
     }
-    catch (EarlyExit) {
+    catch (err) {
+        if(!(err instanceof EarlyExit)) {
+            throw err;
+        }
     }
 
     return wantedNode;

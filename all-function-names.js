@@ -2,11 +2,11 @@
 
 /**
   @author Xiao Liang <https://github.com/yxliang01>
-  @version v0.1.1
+  @version v0.1.2
   
   Print all the functions defined in targeted contractName as a JSON array
   
-  USAGE: ./all-function-names.js TARGET_CONTRACT_NAME
+  USAGE: ./all-function-names.js <PATH_SRC> <TARGET_CONTRACT_NAME>
   
   Note: before use, install package "solidity-parser-antlr" via npm
 */
